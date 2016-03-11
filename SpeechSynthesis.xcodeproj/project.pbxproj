@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACE65E221C92EBF70019266C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE65E211C92EBF70019266C /* main.m */; };
+		ACE65E251C92EBF70019266C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE65E241C92EBF70019266C /* AppDelegate.m */; };
+		ACE65E281C92EBF70019266C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE65E271C92EBF70019266C /* ViewController.m */; };
+		ACE65E2B1C92EBF70019266C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE65E291C92EBF70019266C /* Main.storyboard */; };
+		ACE65E2D1C92EBF70019266C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE65E2C1C92EBF70019266C /* Assets.xcassets */; };
+		ACE65E301C92EBF70019266C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE65E2E1C92EBF70019266C /* LaunchScreen.storyboard */; };
+		ACE65E3B1C92EBF70019266C /* SpeechSynthesisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE65E3A1C92EBF70019266C /* SpeechSynthesisTests.m */; };
+		ACE65E461C92EBF70019266C /* SpeechSynthesisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE65E451C92EBF70019266C /* SpeechSynthesisUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACE65E371C92EBF70019266C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE65E151C92EBF70019266C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE65E1C1C92EBF70019266C;
+			remoteInfo = SpeechSynthesis;
+		};
+		ACE65E421C92EBF70019266C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACE65E151C92EBF70019266C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACE65E1C1C92EBF70019266C;
+			remoteInfo = SpeechSynthesis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACE65E1D1C92EBF70019266C /* SpeechSynthesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechSynthesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE65E211C92EBF70019266C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACE65E231C92EBF70019266C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE65E241C92EBF70019266C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACE65E261C92EBF70019266C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACE65E271C92EBF70019266C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACE65E2A1C92EBF70019266C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACE65E2C1C92EBF70019266C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACE65E2F1C92EBF70019266C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACE65E311C92EBF70019266C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE65E361C92EBF70019266C /* SpeechSynthesisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechSynthesisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE65E3A1C92EBF70019266C /* SpeechSynthesisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesisTests.m; sourceTree = "<group>"; };
+		ACE65E3C1C92EBF70019266C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE65E411C92EBF70019266C /* SpeechSynthesisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeechSynthesisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACE65E451C92EBF70019266C /* SpeechSynthesisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeechSynthesisUITests.m; sourceTree = "<group>"; };
+		ACE65E471C92EBF70019266C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE65E1A1C92EBF70019266C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E331C92EBF70019266C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E3E1C92EBF70019266C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACE65E141C92EBF70019266C = {
+			isa = PBXGroup;
+			children = (
+				ACE65E1F1C92EBF70019266C /* SpeechSynthesis */,
+				ACE65E391C92EBF70019266C /* SpeechSynthesisTests */,
+				ACE65E441C92EBF70019266C /* SpeechSynthesisUITests */,
+				ACE65E1E1C92EBF70019266C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACE65E1E1C92EBF70019266C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACE65E1D1C92EBF70019266C /* SpeechSynthesis.app */,
+				ACE65E361C92EBF70019266C /* SpeechSynthesisTests.xctest */,
+				ACE65E411C92EBF70019266C /* SpeechSynthesisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACE65E1F1C92EBF70019266C /* SpeechSynthesis */ = {
+			isa = PBXGroup;
+			children = (
+				ACE65E231C92EBF70019266C /* AppDelegate.h */,
+				ACE65E241C92EBF70019266C /* AppDelegate.m */,
+				ACE65E261C92EBF70019266C /* ViewController.h */,
+				ACE65E271C92EBF70019266C /* ViewController.m */,
+				ACE65E291C92EBF70019266C /* Main.storyboard */,
+				ACE65E2C1C92EBF70019266C /* Assets.xcassets */,
+				ACE65E2E1C92EBF70019266C /* LaunchScreen.storyboard */,
+				ACE65E311C92EBF70019266C /* Info.plist */,
+				ACE65E201C92EBF70019266C /* Supporting Files */,
+			);
+			path = SpeechSynthesis;
+			sourceTree = "<group>";
+		};
+		ACE65E201C92EBF70019266C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACE65E211C92EBF70019266C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACE65E391C92EBF70019266C /* SpeechSynthesisTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE65E3A1C92EBF70019266C /* SpeechSynthesisTests.m */,
+				ACE65E3C1C92EBF70019266C /* Info.plist */,
+			);
+			path = SpeechSynthesisTests;
+			sourceTree = "<group>";
+		};
+		ACE65E441C92EBF70019266C /* SpeechSynthesisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACE65E451C92EBF70019266C /* SpeechSynthesisUITests.m */,
+				ACE65E471C92EBF70019266C /* Info.plist */,
+			);
+			path = SpeechSynthesisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACE65E1C1C92EBF70019266C /* SpeechSynthesis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE65E4A1C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesis" */;
+			buildPhases = (
+				ACE65E191C92EBF70019266C /* Sources */,
+				ACE65E1A1C92EBF70019266C /* Frameworks */,
+				ACE65E1B1C92EBF70019266C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechSynthesis;
+			productName = SpeechSynthesis;
+			productReference = ACE65E1D1C92EBF70019266C /* SpeechSynthesis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACE65E351C92EBF70019266C /* SpeechSynthesisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE65E4D1C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesisTests" */;
+			buildPhases = (
+				ACE65E321C92EBF70019266C /* Sources */,
+				ACE65E331C92EBF70019266C /* Frameworks */,
+				ACE65E341C92EBF70019266C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE65E381C92EBF70019266C /* PBXTargetDependency */,
+			);
+			name = SpeechSynthesisTests;
+			productName = SpeechSynthesisTests;
+			productReference = ACE65E361C92EBF70019266C /* SpeechSynthesisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACE65E401C92EBF70019266C /* SpeechSynthesisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACE65E501C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesisUITests" */;
+			buildPhases = (
+				ACE65E3D1C92EBF70019266C /* Sources */,
+				ACE65E3E1C92EBF70019266C /* Frameworks */,
+				ACE65E3F1C92EBF70019266C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACE65E431C92EBF70019266C /* PBXTargetDependency */,
+			);
+			name = SpeechSynthesisUITests;
+			productName = SpeechSynthesisUITests;
+			productReference = ACE65E411C92EBF70019266C /* SpeechSynthesisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACE65E151C92EBF70019266C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lunar;
+				TargetAttributes = {
+					ACE65E1C1C92EBF70019266C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ACE65E351C92EBF70019266C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACE65E1C1C92EBF70019266C;
+					};
+					ACE65E401C92EBF70019266C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACE65E1C1C92EBF70019266C;
+					};
+				};
+			};
+			buildConfigurationList = ACE65E181C92EBF70019266C /* Build configuration list for PBXProject "SpeechSynthesis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACE65E141C92EBF70019266C;
+			productRefGroup = ACE65E1E1C92EBF70019266C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACE65E1C1C92EBF70019266C /* SpeechSynthesis */,
+				ACE65E351C92EBF70019266C /* SpeechSynthesisTests */,
+				ACE65E401C92EBF70019266C /* SpeechSynthesisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACE65E1B1C92EBF70019266C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE65E301C92EBF70019266C /* LaunchScreen.storyboard in Resources */,
+				ACE65E2D1C92EBF70019266C /* Assets.xcassets in Resources */,
+				ACE65E2B1C92EBF70019266C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E341C92EBF70019266C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E3F1C92EBF70019266C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACE65E191C92EBF70019266C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE65E281C92EBF70019266C /* ViewController.m in Sources */,
+				ACE65E251C92EBF70019266C /* AppDelegate.m in Sources */,
+				ACE65E221C92EBF70019266C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E321C92EBF70019266C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE65E3B1C92EBF70019266C /* SpeechSynthesisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE65E3D1C92EBF70019266C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE65E461C92EBF70019266C /* SpeechSynthesisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACE65E381C92EBF70019266C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE65E1C1C92EBF70019266C /* SpeechSynthesis */;
+			targetProxy = ACE65E371C92EBF70019266C /* PBXContainerItemProxy */;
+		};
+		ACE65E431C92EBF70019266C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACE65E1C1C92EBF70019266C /* SpeechSynthesis */;
+			targetProxy = ACE65E421C92EBF70019266C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACE65E291C92EBF70019266C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE65E2A1C92EBF70019266C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACE65E2E1C92EBF70019266C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACE65E2F1C92EBF70019266C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACE65E481C92EBF70019266C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACE65E491C92EBF70019266C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACE65E4B1C92EBF70019266C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechSynthesis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACE65E4C1C92EBF70019266C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpeechSynthesis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACE65E4E1C92EBF70019266C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeechSynthesisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechSynthesis.app/SpeechSynthesis";
+			};
+			name = Debug;
+		};
+		ACE65E4F1C92EBF70019266C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpeechSynthesisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeechSynthesis.app/SpeechSynthesis";
+			};
+			name = Release;
+		};
+		ACE65E511C92EBF70019266C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeechSynthesisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeechSynthesis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACE65E521C92EBF70019266C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpeechSynthesisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eagle.SpeechSynthesisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpeechSynthesis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACE65E181C92EBF70019266C /* Build configuration list for PBXProject "SpeechSynthesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE65E481C92EBF70019266C /* Debug */,
+				ACE65E491C92EBF70019266C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACE65E4A1C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE65E4B1C92EBF70019266C /* Debug */,
+				ACE65E4C1C92EBF70019266C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE65E4D1C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE65E4E1C92EBF70019266C /* Debug */,
+				ACE65E4F1C92EBF70019266C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACE65E501C92EBF70019266C /* Build configuration list for PBXNativeTarget "SpeechSynthesisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE65E511C92EBF70019266C /* Debug */,
+				ACE65E521C92EBF70019266C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACE65E151C92EBF70019266C /* Project object */;
+}
